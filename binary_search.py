@@ -2,10 +2,10 @@ def binary_search(list, item):
 	low = 0
 	high = len(list) - 1
 	
-	while low < high: # while you haven't narrowed it down to one element
-		mid = low + high # check the middle
+	while low <= high: # while you haven't narrowed it down to one element
+		mid = (low + high) // 2 # check the middle
 		guess = list[mid]
-		
+
 		if guess == item: # found the item
 			return mid
 		if guess > item: # set new high
