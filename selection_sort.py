@@ -17,3 +17,5 @@ def selectionSort(arr):
     return new_arr
 
 print(selectionSort([5, 3, 6, 2, 10]))
+print(selectionSort([400, 2, -1, 6, 90, 1000, -30]))
+print(selectionSort([-1, -5, -3, -2, 0]))
