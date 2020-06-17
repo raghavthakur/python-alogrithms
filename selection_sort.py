@@ -8,6 +8,7 @@ def findSmallest(arr):
             smallest_index = i
     return smallest_index
 
+# selection sort runtime is O(n^2)
 # sort the given array in increasing order
 def selectionSort(arr):
     new_arr = []
